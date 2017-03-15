@@ -32,7 +32,7 @@ server.on('request', function(req, res){
 
 var port = process.env.port || 3000
 server.listen(port);
-console.log('Listening on port ' + port)
+console.log('Listening on port ' + port);
 
 module.exports = server;
 
