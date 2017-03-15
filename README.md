@@ -1,0 +1,2 @@
+The Node API interacts with the fixer.io API (http://api.fixer.io). The API requires a query string to be added.
+In this case, a base currency e.g EUR, USD, GBP etc (fixer.io fetches data from the European Central Bank) and date

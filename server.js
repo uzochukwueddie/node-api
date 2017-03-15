@@ -1,11 +1,12 @@
-//Load the request module
+//Load the required modules
 var http = require('http')
 var server = http.createServer();
 
 var request = require('request');
+var url = require('url');
 
 server.on('request', function(req, res){
-    var query = require('url').parse(req.url, true).path;
+    var query = url.parse(req.url, true).path;
     request({
         url: 'http://api.fixer.io'+query,
         method: 'GET',
