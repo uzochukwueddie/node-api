@@ -2,7 +2,7 @@
   "name": "node-api",
   "version": "1.0.0",
   "description": "A node api for interacting with fixer.io api",
-    "engines": {
+  "engines": {
     "node": "7.0.0"
   },
   "main": "server.js",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/uzochukwueddie/node-api#readme",
   "dependencies": {
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "url": "^0.11.0"
   }
 }
