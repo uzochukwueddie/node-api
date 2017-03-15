@@ -30,7 +30,7 @@ server.on('request', function(req, res){
 });
 
 
-var port = process.env.port || 3000
+var port = process.env.port || 8080
 server.listen(port, function(){
     console.log('Listening on port ' + port)
 });
