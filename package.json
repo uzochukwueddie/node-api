@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/uzochukwueddie/node-api#readme",
   "dependencies": {
-    "request": "^2.81.0",
     "url": "^0.11.0"
   }
 }
