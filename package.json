@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A node api for interacting with fixer.io api",
   "engines": {
-    "node": "7.0.0"
+    "node": "7.0.0",
+    "npm": "3.10.8"
   },
   "main": "server.js",
   "scripts": {

@@ -7,9 +7,8 @@ var url = require('url');
 
 server.on('request', function(req, res){
     var query = url.parse(req.url, true).path;
-    request({
+    request.get({
         url: 'http://api.fixer.io'+query,
-        method: 'GET',
         headers: {
             'User-Agent': 'request',
             'Content-Type': 'application/json'
