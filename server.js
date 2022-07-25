@@ -6,7 +6,7 @@ var http = require('http')
 var url = require('url');
 
 //Use whatever port is in the environment variable or port 3000
-var port = process.env.PORT || 3000
+var port = process.env.PORT || 3000;
 
 //The createSever method creates a web server object
 //The anonymous function or callback function is called a request handler
