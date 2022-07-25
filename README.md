@@ -9,3 +9,5 @@ E.g. https://fixerio-node-api.herokuapp.com/latest?base=EUR
 
 Also, to get a previous currency rate, add date (YYYY-MM-DD)
 E.g. https://fixerio-node-api.herokuapp.com/2016-03-16
+
+### This was done a long time ago
